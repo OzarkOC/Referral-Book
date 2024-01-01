@@ -232,7 +232,7 @@ function getQuiz(recID, clonedtemp) {
         if (ansE !== null) {
           Q.querySelector(`.${type}E`).textContent = ansE;
         }else {Q.querySelector(`.${type}E`).style.display = "none";}
-        //const QAnsdiv=Q.querySelector(".c-answer");
+        const QAnsdiv=Q.querySelector(".c-answer");
        // QAnsdiv.style.display = "none";
        // QAnsdiv.textContent = correct;
        // Qcontent.appendChild(Q);
